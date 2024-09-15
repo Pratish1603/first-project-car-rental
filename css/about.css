@@ -1,0 +1,123 @@
+section {
+    background-color: #f9f9f9;
+  }
+  
+  .car-reservation {
+   
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .reservation {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .reservation h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .reservation p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .reservation .watermark {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .reservation-banner {
+    /* background-color: #f7f7f7; */
+    background-color: aqua;
+    padding: 20px;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  .car-img{
+    width: 300px;
+  }
+  .booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #f7f7f7;
+  }
+  
+  .booking {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 40px auto;
+  }
+  
+  .booking p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .booking span {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .input-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .input-fields select, .input-fields input {
+    width: 90%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-fields button[type="submit"] {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-fields button[type="submit"]:hover {
+    background-color: #444;
+  }
+  @media (min-width:1024px) {
+    .booking {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 40%;
+      margin: 40px auto;
+    }
+    .input-fields select, .input-fields input {
+      width: 90%;
+      margin: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+  }
